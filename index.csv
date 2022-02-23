@@ -1,0 +1,8 @@
+maxValue(5);;;;;;;;;
+string;i;i <= maxValue;(i % 2 != 0 && i % 5 === 0);(i % 2 != 0);(i % 5 === 0);ELSE;(i < maxValue);i++;return string
+'';1;TRUE;FALSE;TRUE string += 'Snap';-;-;TRUE string += ', ';2;-
+'Snap, ';2;TRUE;FALSE;FALSE;FALSE;TRUE string += 2;TRUE string += ', ';3;-
+'Snap, 2, ';3;TRUE;FALSE;TRUE string += 'Snap';-;-;TRUE string += ', ';4;-
+'Snap, 2, Snap, ';4;TRUE;FALSE;FALSE;FALSE;TRUE string += 4;TRUE string += ', ';5;-
+'Snap, 2, Snap, 4, ';5;TRUE;TRUE string += 'SnapCrackle';-;-;-;FALSE;6;-
+'Sanp, 2, Snap, 4, SnapCrackle';6;FALSE;-;-;-;-;-;-;"return string;"
